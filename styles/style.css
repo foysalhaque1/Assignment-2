@@ -250,6 +250,18 @@
    align-items: center;
 }
 
+/* footer */
+.footer-img-flex{
+   display: flex;
+   
+   align-items: center;
+   gap: 10px;
+}
+.footer-flex{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
 
 
 @media screen and (max-width:800px) {
@@ -276,6 +288,7 @@
    height: 180px;
    border: 1px solid black;
    border-radius: 12px;
+   
 }
 .small-card-content{
    font-size: 14px;
@@ -284,22 +297,101 @@
 }
 .small-card-grid{
    display: grid;
-   grid-template-columns: repeat(2,2fr);
+   grid-template-columns: repeat(2,auto);
    gap: 10px;
    justify-items: center;
    align-items: center;
+   
 }
-/* .small-card-btn{
+
+.small-card-btn{
+   position: absolute;
    width: 104px;
    height: 22px;
-   padding: 14px 19px;
+   padding: 6px 11px;
    background-color: #95B226;
-   border-radius: 30px;
+   border-radius: 10px;
    font-size: 9px;
    color: white;
   margin-left: 20px;
-  margin-top: -30px;
-
+  top: 125px;
+  left: 2px;
+  align-items: center;
+  text-align: center;
+  }
+  .small-card-btn2{
+   position: absolute;
+   width: 104px;
+   height: 22px;
+   padding: 6px 11px;
+   background-color: #95B226;
+   border-radius: 10px;
+   font-size: 9px;
+   color: white;
+  margin-left: 20px;
+  bottom:-2660px;
+  left: 210px;
+  align-items: center;
+  text-align: center;
+  }
+  .small-card-btn3{
+    position: absolute;
+   width: 104px;
+   height: 22px;
+   padding: 6px 11px;
+   background-color: #95B226;
+   border-radius: 10px;
+   font-size: 9px;
+   color: white;
+  margin-left: 20px;
+  bottom:-2855px;
+  left: 30px;
+  align-items: center;
+  text-align: center;
+  }
+.small-card-img{
+   border-top-left-radius: 12px;
+   border-top-right-radius: 12px;
+   width: 100%;
+}
+ .small-card-btn4{
+   position: absolute;
+   width: 104px;
+   height: 22px;
+   padding: 6px 11px;
+   background-color: #95B226;
+   border-radius: 10px;
+   font-size: 9px;
+   color: white;
+  margin-left: 20px;
+  bottom:-2860px;
+  left: 210px;
+  align-items: center;
+  text-align: center;
+  }
+.main-small-padding{
+   padding-right: 30px;
+   padding-left: 30px;
+}
+/* .width{
+   max-width: 50rem;
+   margin: 0 auto;
+}
+.main-width{
+   
+   max-width: 50rem;
+   margin: 20px auto;
 } */
+ /* footer */
+
+.footer-flex{
+   flex-direction: column;
+   align-items: start;
+}
+.footer-padding{
+   padding-left: 20px;
+}
+
+
 }
 
