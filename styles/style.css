@@ -89,12 +89,19 @@ main{
    box-shadow: 0px 4px 8px #DEF5FF  ;
    border: 1px solid #66A9C7;
    border-radius: 20px;
-   padding: 52px 46px;
+   padding: 2px 46px;
 }
 .space-vertical{
    margin-top: 33px;
    margin-bottom: 33px;
 }
+.card-flex{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+/* card-1 */
 .gradient-color-card-1{
    background: linear-gradient(to bottom,#DEF5FF,#FFFFFF);
 }
@@ -111,10 +118,60 @@ main{
    color: #64C8FF;
    font-weight:600;
 }
+/* card-2 */
+.card-para-2-text{
+   font-size: 16px;
+   color: #F0AA00;
+   font-weight:600;
+}
+.gradient-color-card-2{
+   background: linear-gradient(to bottom,#FFF4DC,#FFFFFF);
+}
+/* card-3 */
+.gradient-color-card-3{
+   background: linear-gradient(to bottom,#EEE1FF,#FFFFFF);
+}
+.card-para-3-text{
+   font-size: 16px;
+   color: #8700FF;
+   font-weight:600;
+}
+/* arrow */
+.circle{
+   width: 60px;
+   height: 60px;
+   background-color: #F0AA00;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  gap: 10px;
+}
+.circle-gap{
+   gap: 10px;
+   margin: 20px auto;
+}
+.circle-flex{
+   display: flex;
+
+}
+.circle-hover:hover{
+   background-color: #8700FF;
+}
+
+/* Our stories */
+.stories-big-card{
+   width: 33.75rem;
+   height:39.37rem;
+   box-shadow: 0px 4px 8px #DEF5FF  ;
+   border: 1px solid #66A9C7;
+   border-radius: 20px;
+   padding: 2px 46px;
+}
 
 
 
-@media screen and (max-width:625px) {
+@media screen and (max-width:700px) {
    /* navbar */
    .hide{
       display: none;
@@ -129,6 +186,9 @@ main{
    }
    .banner-text-width-small{
       max-width: 540px;
+   }
+   .card-flex{
+      flex-direction: column;
    }
 }
 
