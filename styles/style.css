@@ -271,5 +271,35 @@
    .card-flex{
       flex-direction: column;
    }
+   .small-card{
+   width: 173px;
+   height: 180px;
+   border: 1px solid black;
+   border-radius: 12px;
+}
+.small-card-content{
+   font-size: 14px;
+   font-weight: 600;
+   padding: 5px 5px;
+}
+.small-card-grid{
+   display: grid;
+   grid-template-columns: repeat(2,2fr);
+   gap: 10px;
+   justify-items: center;
+   align-items: center;
+}
+/* .small-card-btn{
+   width: 104px;
+   height: 22px;
+   padding: 14px 19px;
+   background-color: #95B226;
+   border-radius: 30px;
+   font-size: 9px;
+   color: white;
+  margin-left: 20px;
+  margin-top: -30px;
+
+} */
 }
 
