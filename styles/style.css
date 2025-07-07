@@ -273,7 +273,7 @@
 }
 
 
-@media screen and (max-width:800px) {
+@media screen and  (max-width:800px)  {
    /* navbar */
    .hide{
       display: none;
@@ -380,8 +380,8 @@
   text-align: center;
   }
 .main-small-padding{
-   padding-right: 30px;
-   padding-left: 30px;
+   padding-right: 10px;
+   padding-left: 10px;
 }
 /* .width{
    max-width: 50rem;
@@ -403,8 +403,8 @@
 }
 
 .padding{
-   padding-left: 20px;
-   padding-right: 20px;
+   padding-left: 10px;
+   padding-right: 10px;
 }
 
 
