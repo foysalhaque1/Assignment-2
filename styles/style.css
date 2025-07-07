@@ -1,7 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.quicksand-font {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+
+
 /* shared */
 
 .nav-left{
    display: flex;
    text-align: center;
+   align-items: center;
     
 }
+.gap{
+  gap: 2rem;
+}
+.logo-text{
+   font-weight: 600;
+   font-size: 32px;
+}
+
+
+.nav-flex{
+   display: flex;
+   justify-content: space-between;
+   justify-items: center;
+   align-items: center;
+}
+
+.width{
+   max-width: 75rem;
+   margin: 0 auto;
+}
+.btn{
+   background: #FEA301;
+   padding: .62rem 4rem;
+   
+}
+.btn-hover:hover{
+   background-color: blue;
+}
+.btn-radius{
+   border-radius: 6px;
+}
+.nav-margin{
+   margin-top: 0px;
+   
+}
+.menu-icon{
+   display: none;
+}
+
+
+
+/* banner */
+
+.banner-left-width{
+   max-width: 40rem;
+}
+
+.banner-flex{
+    display: flex;
+   justify-content: space-between;
+   justify-items: center;
+   align-items: center;
+}
+.banner-btn{
+   background: #000000;
+   padding: .62rem 4rem;
+   color: white;
+}
+
+/* main section */
+main{
+   background-image: url('./../assets/bg.png');
+   max-width: 75rem;
+   margin: 20px auto;
+}
+/* standard curriculum */
+.card{
+   width: 367px;
+   height: 476px;
+   box-shadow: 0px 4px 8px #DEF5FF  ;
+   border: 1px solid #66A9C7;
+   border-radius: 20px;
+   padding: 52px 46px;
+}
+.space-vertical{
+   margin-top: 33px;
+   margin-bottom: 33px;
+}
+.gradient-color-card-1{
+   background: linear-gradient(to bottom,#DEF5FF,#FFFFFF);
+}
+.card-heading-text{
+   font-size: 30px;
+   font-weight: 600;
+}
+.card-para-text{
+   font-size: 16px;
+   color: #808080;
+}
+.card-para-1-text{
+   font-size: 16px;
+   color: #64C8FF;
+   font-weight:600;
+}
+
+
+
+@media screen and (max-width:625px) {
+   /* navbar */
+   .hide{
+      display: none;
+   }
+   .menu-icon{
+      display: block;
+   }
+   .banner-flex{
+      flex-direction: column-reverse;
+      text-align: center;
+      
+   }
+   .banner-text-width-small{
+      max-width: 540px;
+   }
+}
+
